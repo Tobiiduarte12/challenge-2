@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: (paragraph): 16px; 
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 94%);
+}
+.button-container {
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.img-card img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.info-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffff;
+    border-radius: 0px 0px 20px 20px;
+}
+.text-card h1{                  
+    font-weight: 800;
+    text-align: center;
+    padding: 40px;
+    font-size: 35px;
+    color: hsl(223, 47%, 23%);
+}
+.text-card p {
+    width: 70%;
+    font-size: 22px;
+    line-height: 1.9;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    color: hsl(224, 23%, 55%);
+}
+.plan-section{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 25px;
+    margin: auto;
+    align-items: center;
+}
+.change-container a{
+    font-weight: 800;
+    font-size: 15px;
+    color: hsl(245, 75%, 52%);
+}
+.plan-name p{
+    color: gray;
+}
+.button-one button{
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    margin-left: 60px;
+}
+.button-one button a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+
+}
+.button-two button{
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffff;
+    margin-left: 60px;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 6%);
+}
+.button-two a{
+    font-weight: 700;
+    font-size: 19px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+.button-one button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.button-two button:hover{
+    background-color: red;
+    cursor: pointer;
+}
